@@ -1,0 +1,197 @@
+.container>footer {
+    border-top: 5px double rgb(224, 91, 91);
+    line-height: 50px;
+    background-color: rgb(246, 243, 243);
+    text-align: center;
+    font-variant: normal;
+    clear: both;
+}
+
+.container>nav>a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container>header {
+    background-color: rgb(240, 237, 237);
+    color: rgb(34, 31, 31);
+    font-variant: initial;
+    padding: 15px;
+    font-size: 13px;
+}
+
+.container>nav {
+    padding: 12px;
+    font-size: 15px;
+    background-color: rgba(243, 237, 245, 0.823);
+}
+
+.list-car {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.car1 {
+    list-style: none;
+    padding: 5px;
+}
+
+.car2 {
+    flex: 1;
+}
+
+.list-car img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.moto {
+    max-width: 960px;
+    margin: 0;
+    padding: 25px;
+    float: left;
+}
+
+.container>aside {
+    min-height: 600px;
+    width: 400px;
+    float: left;
+    margin: 12px;
+    background-color: rgba(223, 235, 239, 0.412);
+    font-size: 23px;
+    border: 1px solid rgb(206, 201, 201);
+    padding: 8px;
+}
+
+.moto>h2 {
+    display: inline;
+    margin-right: 40px;
+}
+
+form{
+    display: inline;
+    margin-right: 40px;
+}
+
+.timkiem {
+    font-size: 17;
+    border: 1px solid green;
+    border-radius: 13px;
+    padding: 10px;
+
+}
+
+.ngonngu {
+    font-size: 17px;
+    border: 1px solid green;
+    border-radius: 13px;
+    padding: 10px;
+
+}
+
+.dangki {
+    font-size: 17px;
+    border: 1px solid rgb(217, 91, 224);
+    padding: 11px;
+}
+
+.mua {
+    border: 1px solid brown;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.list-car .mua>a:hover {
+    color: brown;
+    text-decoration: none;
+}
+
+.list-car .gia {
+    display: inline;
+    padding: 10px;
+}
+
+.list-car .mua {
+    margin: 10px;
+}
+
+.container>header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    max-width: 70%;
+    max-height: 100%;
+}
+
+.menu>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu>ul>li>a {
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: red;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: rgb(232, 217, 229);
+    text-align: left;
+}   
+.menu>ul>li>a:hover {
+    color: rgb(200, 62, 215);
+}
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a {
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu>ul>li:hover>ul {
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: rgb(203, 101, 186);
+    color: white;
+}
